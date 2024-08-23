@@ -1,0 +1,155 @@
+html, body{
+    font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+.magnifying-glass{
+    height: 20px;
+    width: 20px;
+}
+.search-top > input{
+    width: 550px;
+    height: 24px;
+    border-radius: .75rem;
+    border: none;
+    background-color: lightgrey;
+}
+.notification-bell{
+    height: 24px;
+    width: 24px;
+}
+.header-top{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.header-bottom{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.search-top{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-column: 2/3;
+    padding-left: 48px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+}
+.notifications{
+    display: flex;
+    gap: 1rem;
+    justify-content: end;
+    align-items: center;
+    font-weight: 600;
+}
+.zebra{
+    height: 56px;
+    width: 56px;
+}
+.text{
+    font-weight: 700;
+}
+.text > h1{
+    font-size: 1.5rem;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+.header-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+button{
+    font: inherit;
+    font-weight: 600;
+    color: white;
+    background-color: #1992D4;
+    border: none;
+    border-radius: 1.2rem;
+    width: 90px;
+    height: 40px;
+    padding: .35em .30em;
+}
+.sideboard{
+    font: inherit;
+    color: white;
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    display: flex;
+    background-color: #1992D4;
+}
+
+.projects{
+    background-color:#E2e8f0;
+    display: grid;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.project-header{
+    grid-column: 1 / 2;
+    font-size: 1.2rem;
+}
+.card-container{
+    grid-column: 1;
+    grid-row: span 2;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+.card{
+    padding: 1rem;
+    grid-row: span 1;
+    border-left: 5px solid #F0B429;
+    overflow-wrap: break-word;
+}
+
+h2{
+    font-size: 1.2rem;
+}
+.card{
+    min-width: 200px;
+    min-height: 180px;
+    background-color: white;
+    border-radius: .40rem;
+}
+.announcements-card{
+    padding: 16px;
+    background-color: white;
+    width: 250px;
+    display: grid;
+    border-radius: .40rem;
+}
+.trending > h2{
+    font-size: 1.2rem;
+}
+.trending-cards{
+    background-color: white;
+    padding: 16px;
+    border-radius: .40rem;
+    position: relative;
+}
+
+hr {
+    width: 100%; /* Full width by default */
+    height: 1px; /* Small height for a thin line */
+    border: none; /* No border to keep it simple */
+    background-color: grey; /* Or any color you prefer */
+
+}
